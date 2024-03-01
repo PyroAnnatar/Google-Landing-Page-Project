@@ -9,20 +9,23 @@ body {
   padding: 0;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
 .header-left {
-  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 0;
 }
 
 .header-right {
-  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-right: 20px;
-}
-
-.clearfix::after {
-  content: " ";
-  display: block;
-  clear: both;
 }
 
 ul {
@@ -168,21 +171,33 @@ footer {
   background-color: #f2f2f2;
   font-size: 14px;
   line-height: 40px;
+  display: flex;
+  flex-flow: column nowrap;
 }
 
 .country {
+  display: flex;
   border-bottom: 1px solid #e4e4e4;
   padding-left: 30px;
   color: #5f6368;
 }
 
+.flexyfooty {
+  display: flex;
+  justify-content: space-between;
+}
+
 .footer-left {
-  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0px;
   padding-left: 23px;
 }
 
 .footer-right {
-  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0 12px 0 0;
 }
